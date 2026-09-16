@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Savitsin_pr_31_pract2</string>
+    <string name="toolBar">LibraryRoomArticle</string>
+    <string name="stat">Добавить статистику</string>
+    <string name="result">Результат:</string>
+    <string name="complexity">Сложность</string>
+    <string name="countError">Количество ошибок</string>
+    <string name="countPoint">Количество очков</string>
+    <string name="add">Добавить</string>
+    <string name="allStat">Вся статистика</string>
+    <string name="login">Login</string>
+    <string name="email">Email Address:</string>
+    <string name="password">Password:</string>
+    <string name="emailHint">*********@mail.com</string>
+    <string name="passHint">*********</string>
+</resources>

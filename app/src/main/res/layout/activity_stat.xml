@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="All statistics"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="80sp"
+            android:text="Email:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/emailUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:textColor="@color/gray"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100sp"
+            android:text="Password:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/passwordUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:textColor="@color/gray"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100sp"
+            android:text="Result:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/resultUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="result"
+            android:textColor="@color/gray"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="120sp"
+            android:text="Complexity:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/compUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="complexity"
+            android:textColor="@color/gray"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="120sp"
+            android:text="Count Error:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/errorsUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="count errors"
+            android:textColor="@color/gray"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="120sp"
+            android:text="Count Point:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/pointsUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="count points"
+            android:textColor="@color/gray"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Назад"
+        android:textSize="20sp"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="30sp"
+        android:onClick="Back"/>
+
+</LinearLayout>
